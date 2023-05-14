@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Audio Conn")(type "Legacy")(uri "${KIPRJMOD}/Library/SJ2-35853A-SMT-TR.lib")(options "")(descr ""))
+  (lib (name "Anderson")(type "KiCad")(uri "${KIPRJMOD}/Library/ASMPR45-1X2-RK.kicad_sym")(options "")(descr ""))
+)
