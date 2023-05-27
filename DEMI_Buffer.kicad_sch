@@ -1123,11 +1123,6 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 86a409ac-2947-4392-94d6-8568a8620baf)
   )
-  (text "TEST PLAN:\n*** HAVE A THINK BEFORE RUNNING***\nTest 0:\n    Action: Apply 12V to J2\n    Verify: Power rails and default states\n    Status: Pass\nTest 1:\n    Action: Connect and only power-on IC705\n    Verify: Measure 5V Bus for leakage and Q1 Vgs for turn-on (expect none)\n    Status: Pass - Voltage across R4=0.00V, indicates very weak pull-up on the IC-705.\nTest 2:\n    Action: Connect and only power-on DEMI\n    Verify: Measure 5V Bus (expect good), U3 input and output voltage, Q1 Vgs, Resistance across PTT and GND, Voltage across RELAY + and -\nTest 3:\n    Action: Install Dummy Load on DEMI, Connect and only power-on DEMI and toggle the SEND input with a PSU or function generator\n    Verify: Measure expected behavior at U3, Q1 voltage and current, and RELAY + and -\nTest 4:\n    Action: Install Dummy Load on DEMI, Connect and power-on IC-705 and DEMI. Use SEND and IF cable (do a microwave safety check first and use minimum or no power)\n    Verify: Functionality"
-    (at 21.59 165.1 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 89316a9e-7f4d-4cef-bf79-56c1c4b61f2e)
-  )
   (text "DEMI Voltage: 10-15.5V" (at 190.5 67.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9626e94d-f8d0-4bfa-bf3d-12cccf5bd0d6)
